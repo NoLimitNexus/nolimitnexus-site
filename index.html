@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>No Limit Nexus</title>
+<meta name="description" content="No Limit Nexus is the independent software studio of Joshua: web applications, games and tools, designed, built and run end to end.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f3a44'/%3E%3Cpath d='M9 23V9l14 14V9' fill='none' stroke='%23e8eef0' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#f7f7f5;--surface:#ffffff;--text:#1a1f22;--muted:#5b656b;--line:#e3e6e4;
+  --accent:#1f3a44;--accent-ink:#ffffff;--rule:#c9d1cf;
+  color-scheme:light dark;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#13181b;--surface:#1a2024;--text:#e8ecee;--muted:#9aa6ac;--line:#262e33;
+  --accent:#9fc3cf;--accent-ink:#0f1a1e;--rule:#2f3a40;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+a{color:inherit}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:2}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:600;letter-spacing:.01em}
+.brand svg{width:26px;height:26px;flex:none}
+nav{display:flex;gap:22px;font-size:15px}
+nav a{text-decoration:none;color:var(--muted)}
+nav a:hover{color:var(--text)}
+.hero{padding:88px 0 64px}
+.kicker{color:var(--muted);font-size:14px;letter-spacing:.08em;text-transform:uppercase;margin:0 0 18px}
+h1{font-size:clamp(34px,6vw,56px);line-height:1.08;letter-spacing:-.02em;margin:0 0 22px;font-weight:600;max-width:16ch}
+.lead{font-size:clamp(17px,2.2vw,20px);color:var(--muted);max-width:56ch;margin:0 0 34px}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:11px 18px;border-radius:8px;text-decoration:none;font-weight:600;font-size:15px;border:1px solid var(--accent)}
+.btn.primary{background:var(--accent);color:var(--accent-ink)}
+.btn.ghost{color:var(--text);border-color:var(--rule)}
+section{padding:56px 0;border-top:1px solid var(--line)}
+h2{font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 28px;font-weight:600}
+.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:24px}
+.card h3{margin:0 0 10px;font-size:18px;font-weight:600}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.prose{max-width:62ch}
+.prose p{margin:0 0 16px}
+.contact{display:flex;gap:14px;flex-wrap:wrap;margin-top:8px}
+footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media (max-width:520px){nav{gap:16px;font-size:14px}.hero{padding:64px 0 48px}section{padding:44px 0}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="No Limit Nexus home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="var(--accent)"/><path d="M9 23V9l14 14V9" fill="none" stroke="var(--accent-ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      No Limit Nexus
+    </a>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap hero">
+    <p class="kicker">Independent software studio</p>
+    <h1>Software designed, built and run end to end.</h1>
+    <p class="lead">No Limit Nexus is the studio of Joshua, a developer who takes web applications, games and internal tools from the first sketch to a running service: the interface, the rules behind it, the server it lives on.</p>
+    <div class="actions">
+      <a class="btn primary" href="#contact">Get in touch</a>
+      <a class="btn ghost" href="#work">What we do</a>
+    </div>
+  </div>
+
+  <section id="work">
+    <div class="wrap">
+      <h2>What we do</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Web applications and games</h3>
+          <p>Browser-based software that runs as well on a phone as on a desktop, including real-time 3D built with Three.js and Unity. No installs, no app store between the work and the people using it.</p>
+        </div>
+        <div class="card">
+          <h3>Online services</h3>
+          <p>Accounts, cloud saves, chat and multiplayer backends, self-hosted on rented servers with automatic HTTPS, nightly backups and admin pages for the people who run them.</p>
+        </div>
+        <div class="card">
+          <h3>Tooling and automation</h3>
+          <p>Internal tools that turn a slow, error-prone process into a clear one: trackers, validators, generators and AI-assisted workflows built around how the work is actually done.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap prose">
+      <h2>About</h2>
+      <p>No Limit Nexus is a one-person studio. Projects are built in the open where that makes sense and kept private while they are still being shaped; several are in development and not yet shown here.</p>
+      <p>The work favours plain, dependable choices: standard web technology, small servers, code that one person can read and run years later. Details and demonstrations of current work are available on request.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap prose">
+      <h2>Contact</h2>
+      <p>For project enquiries or to see current work, get in touch through GitHub.</p>
+      <div class="contact">
+        <a class="btn ghost" href="https://github.com/NoLimitNexus" rel="me noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; 2026 No Limit Nexus</span>
+    <span>nolimitnexus.com</span>
+  </div>
+</footer>
+</body>
+</html>
