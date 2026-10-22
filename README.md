@@ -8,3 +8,8 @@ The professional landing page at the root of nolimitnexus.com. One static file, 
 Deploy: `node tools/deploy.mjs` uploads `index.html` to the server over SSH (root key `~/.ssh/nolimitnexus_vps`).
 
 Nothing on this page names a project that is not public. Add a project only when the owner says it may be shown.
+
+## The games page (unlisted)
+`games/index.html` is served at https://nolimitnexus.com/games/ : a plain picker with a Play link to each game.
+His ask (2026-10-22): under the main domain, but not linked from or seen on the main page for now. It carries
+`noindex` so search engines leave it out. The deploy script uploads both pages.

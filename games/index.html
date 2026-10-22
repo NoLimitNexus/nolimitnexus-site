@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Games - No Limit Nexus</title>
+<meta name="description" content="Games from No Limit Nexus you can play in the browser.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f3a44'/%3E%3Cpath d='M9 23V9l14 14V9' fill='none' stroke='%23e8eef0' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#f7f7f5;--surface:#ffffff;--text:#1a1f22;--muted:#5b656b;--line:#e3e6e4;
+  --accent:#1f3a44;--accent-ink:#ffffff;--rule:#c9d1cf;
+  color-scheme:light dark;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#13181b;--surface:#1a2024;--text:#e8ecee;--muted:#9aa6ac;--line:#262e33;
+  --accent:#9fc3cf;--accent-ink:#0f1a1e;--rule:#2f3a40;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+a{color:inherit}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;height:60px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:600;letter-spacing:.01em}
+.brand svg{width:26px;height:26px;flex:none}
+.top{padding:56px 0 32px}
+h1{font-size:clamp(30px,5vw,44px);line-height:1.1;letter-spacing:-.02em;margin:0 0 12px;font-weight:600}
+.lead{font-size:17px;color:var(--muted);margin:0;max-width:56ch}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));padding-bottom:56px}
+.game{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:22px;text-decoration:none;transition:border-color .15s}
+.game:hover,.game:focus-visible{border-color:var(--accent)}
+.game h2{margin:0 0 8px;font-size:19px;font-weight:600}
+.game p{margin:0 0 18px;color:var(--muted);font-size:15px;flex:1}
+.game .play{align-self:flex-start;padding:8px 16px;border-radius:8px;background:var(--accent);color:var(--accent-ink);font-weight:600;font-size:15px}
+.tag{display:inline-block;margin:0 0 10px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+footer{border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:14px}
+@media (max-width:520px){.top{padding:40px 0 24px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="No Limit Nexus home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="var(--accent)"/><path d="M9 23V9l14 14V9" fill="none" stroke="var(--accent-ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      No Limit Nexus
+    </a>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="top">
+    <h1>Games</h1>
+    <p class="lead">Pick a game and play it in your browser. Everything here is still being made, so expect changes.</p>
+  </div>
+
+  <div class="grid">
+    <a class="game" href="https://wayfarers.nolimitnexus.com/">
+      <span class="tag">Islands and skills</span>
+      <h2>Wayfarers</h2>
+      <p>Tap to gather and level your skills, build up your islands, farm and fish at home, and sail out to new islands.</p>
+      <span class="play">Play</span>
+    </a>
+    <a class="game" href="https://lakeside.nolimitnexus.com/">
+      <span class="tag">Cozy</span>
+      <h2>Lakeside</h2>
+      <p>A calm island game: grow a garden, fish the lake, cook what you catch.</p>
+      <span class="play">Play</span>
+    </a>
+    <a class="game" href="https://nolimitnexus.github.io/skyfray/">
+      <span class="tag">Arena</span>
+      <h2>Skyfray</h2>
+      <p>Side-view jetpack fights against bots. Team deathmatch and Core Rush, a ball mode.</p>
+      <span class="play">Play</span>
+    </a>
+    <a class="game" href="https://nolimitnexus.github.io/wayfarer-wilds/adventure/">
+      <span class="tag">Party adventure</span>
+      <h2>Adventure Island</h2>
+      <p>Pick a class and lead a party of AI companions across a new island every run, up to the boss.</p>
+      <span class="play">Play</span>
+    </a>
+    <a class="game" href="https://nolimitnexus.github.io/kindling/">
+      <span class="tag">Fire</span>
+      <h2>Kindling</h2>
+      <p>Build a fire, throw things in and watch them catch. Best on a computer.</p>
+      <span class="play">Play</span>
+    </a>
+    <a class="game" href="https://nolimitnexus.github.io/hushworks/">
+      <span class="tag">Stealth</span>
+      <h2>Hushworks</h2>
+      <p>A stealth platformer about workers trying to sneak out of work early without getting caught.</p>
+      <span class="play">Play</span>
+    </a>
+    <a class="game" href="https://nolimitnexus.github.io/living-world/">
+      <span class="tag">Watch it grow</span>
+      <h2>Living World</h2>
+      <p>A world that runs itself: villages farm, build and grow up while you watch.</p>
+      <span class="play">Play</span>
+    </a>
+    <a class="game" href="https://nolimitnexus.github.io/party-rpg-realistic/">
+      <span class="tag">Early test</span>
+      <h2>Party RPG</h2>
+      <p>The party adventure with realistic-looking characters, an early look.</p>
+      <span class="play">Play</span>
+    </a>
+    <a class="game" href="https://play.nolimitnexus.com/">
+      <span class="tag">Hangout</span>
+      <h2>NLN 3D</h2>
+      <p>A 3D chatroom: walk around and talk with whoever is there.</p>
+      <span class="play">Play</span>
+    </a>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">&copy; 2026 No Limit Nexus</div>
+</footer>
+</body>
+</html>
