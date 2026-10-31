@@ -22,6 +22,18 @@ and tools, designed, built and run end to end."
 | Tide Nexus | taken | free |
 | Open Nexus, Nexus Works, Limitless Nexus, Nexus Forge, Harbor Works, Lantern Works, Keel Works, Tidewright, Wayfound | taken | taken |
 
+## Nexus batch 2 (2026-10-31)
+
+Open everywhere (.com, .dev, .studio, GitHub): Nexus Hall, Nexus Makes.
+Open on .dev and .studio with the GitHub name free (.com taken): Nexus Row, Nexus Ridge, Nexus Fort, Nexus Forms.
+.com open but GitHub taken: Nexus Bay. Taken where it matters: Nexus Line, Field, Yard, North, Point, Base, Core,
+Bridge, Gate, Loop, Way, Front, Builds.
+
+## Maybe list (his picks)
+
+- Nexus Built, nexusbuilt.dev (added 2026-10-31; .dev, .studio and .games open, GitHub name free). He dropped Spell,
+  Wide Open Works and Harbor; Nexus Studio is taken on .com, .studio and GitHub.
+
 ## Open decisions (his)
 
 - Name direction: keep "Nexus" and drop "No Limit", a water/boat name from his games, or a fresh name.
