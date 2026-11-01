@@ -45,6 +45,14 @@ Registered-free .com AND GitHub name free: Nexus Makes, Nexmere, Nexfell, Nexwic
 .dev not registered AND GitHub name free (.com taken): Brightwright, Northwright, Eastmere, Eldmere, Stillmere,
 Thornmere, Wynmere, Whitmoor, Emberline, Latchworks, Tumblerworks, Nexus Built, Nexus Hall.
 
+## Professional batch (2026-10-31, after "all of this sounds like video games ... I said professional")
+
+Sixty-two company-style names (coined words like Solenta, Lucendo, Meridex; Nexus Systems / Software / Interactive;
+Beacon Software, Keystone Software, Cadence Works ...), registry-checked on .com, .dev, .io and GitHub.
+Not one .com is free. Free on .dev with the GitHub name free: Solenta. Free on .dev and .io, GitHub name taken:
+Beacon Software, Keystone Software, Vantage Software, Cadence Works, Lucendo, Nexus Interactive, Nexus Engineering,
+Nexus Creative. Lesson: a professional name's .com is bought on the aftermarket or the company starts on .dev / .io.
+
 ## Maybe list (his picks)
 
 - Nexus Built, nexusbuilt.dev (added 2026-10-31; .dev, .studio and .games open, GitHub name free). He dropped Spell,
