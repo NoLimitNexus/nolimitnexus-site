@@ -59,6 +59,14 @@ Nexus Creative. Lesson: a professional name's .com is bought on the aftermarket 
 Irvera, Kelient, Pelient, Quinient, Quiniant, Quinenta, Quinivo, Quinune, Tariant, Welient, Welenta, Zanient,
 Zaniant, Zanenta, Irvient, Irviant, Tevient, Tevune; Fenient and Pelenta (GitHub name taken).
 
+## Decided 2026-11-01: work stays on GitHub
+
+His words: "Let's leave the work-related stuff on Github." PT, the Pinning Calculator, TMK Gen Pro, MK-Reference and
+the other work tools keep their nolimitnexus.github.io addresses, whatever the new brand is. The personal projects
+(games, sites) are the ones that go under the one new domain, served from the rented server, github.io copies left
+in place. The earlier rule still holds: never set a custom domain inside GitHub's Pages settings (it redirects
+github.io and strands device-only game saves).
+
 ## Maybe list (his picks)
 
 - Nexus Built, nexusbuilt.dev (added 2026-10-31; .dev, .studio and .games open, GitHub name free). He dropped Spell,
