@@ -53,6 +53,12 @@ Not one .com is free. Free on .dev with the GitHub name free: Solenta. Free on .
 Beacon Software, Keystone Software, Vantage Software, Cadence Works, Lucendo, Nexus Interactive, Nexus Engineering,
 Nexus Creative. Lesson: a professional name's .com is bought on the aftermarket or the company starts on .dev / .io.
 
+## Coined batch, free .com only (2026-10-31, after "why are you showing me taken")
+
+240 coined names checked; these have a free .com and a free .dev. GitHub name free unless noted:
+Irvera, Kelient, Pelient, Quinient, Quiniant, Quinenta, Quinivo, Quinune, Tariant, Welient, Welenta, Zanient,
+Zaniant, Zanenta, Irvient, Irviant, Tevient, Tevune; Fenient and Pelenta (GitHub name taken).
+
 ## Maybe list (his picks)
 
 - Nexus Built, nexusbuilt.dev (added 2026-10-31; .dev, .studio and .games open, GitHub name free). He dropped Spell,
