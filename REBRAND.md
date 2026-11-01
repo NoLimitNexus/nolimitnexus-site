@@ -34,6 +34,17 @@ Bridge, Gate, Loop, Way, Front, Builds.
 Open on .com, .dev and GitHub: Nexmere, Nexdale, Nexfell, Nexwick, Nexmarsh, Nexshire.
 Open on .dev with GitHub free (.com taken): Nexholm, Nexbury, Nexwood, Nexvale, Nexmont, Nexbrook, Nexhollow.
 
+## Big batch, registry-checked (2026-10-31, after "I don't want to do this 5 names at a time")
+
+Ninety professional names not tied to Nexus (Northline, Fieldstone, Stillwater, Ashworth, Calder, Latchworks ...) were
+checked on .com, .dev and GitHub. Every real-word or common-compound .com is registered. The DNS-only checks above
+over-reported ".com open": the registry (RDAP) says nexushall.com and nexdale.com are registered after all.
+
+Registered-free .com AND GitHub name free: Nexus Makes, Nexmere, Nexfell, Nexwick, Nexmarsh, Nexshire, Spell & Key
+(dropped), Wide Open Works (dropped).
+.dev not registered AND GitHub name free (.com taken): Brightwright, Northwright, Eastmere, Eldmere, Stillmere,
+Thornmere, Wynmere, Whitmoor, Emberline, Latchworks, Tumblerworks, Nexus Built, Nexus Hall.
+
 ## Maybe list (his picks)
 
 - Nexus Built, nexusbuilt.dev (added 2026-10-31; .dev, .studio and .games open, GitHub name free). He dropped Spell,
