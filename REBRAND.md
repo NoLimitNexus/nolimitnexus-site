@@ -29,6 +29,11 @@ Open on .dev and .studio with the GitHub name free (.com taken): Nexus Row, Nexu
 .com open but GitHub taken: Nexus Bay. Taken where it matters: Nexus Line, Field, Yard, North, Point, Base, Core,
 Bridge, Gate, Loop, Way, Front, Builds.
 
+## Coined Nex- place names (2026-10-31, after "can't find anything good")
+
+Open on .com, .dev and GitHub: Nexmere, Nexdale, Nexfell, Nexwick, Nexmarsh, Nexshire.
+Open on .dev with GitHub free (.com taken): Nexholm, Nexbury, Nexwood, Nexvale, Nexmont, Nexbrook, Nexhollow.
+
 ## Maybe list (his picks)
 
 - Nexus Built, nexusbuilt.dev (added 2026-10-31; .dev, .studio and .games open, GitHub name free). He dropped Spell,
