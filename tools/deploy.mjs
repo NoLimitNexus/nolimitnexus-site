@@ -12,9 +12,10 @@ const dir = '/opt/stacks/caddy/www/nolimitnexus';
 const ssh = (cmd) => execFileSync('ssh', ['-i', key, '-o', 'BatchMode=yes', host, cmd], { stdio: 'inherit' });
 
 // games/ is the unlisted game picker at /games/ (nothing on the main page links to it).
-const pages = ['index.html', 'games/index.html'];
+// timerhouse/ is the Timer House YouTube channel's home, privacy and terms pages (Google sign-in setup needs them).
+const pages = ['index.html', 'games/index.html', 'timerhouse/index.html', 'timerhouse/privacy.html', 'timerhouse/terms.html'];
 
-ssh(`mkdir -p ${dir}/games`);
+ssh(`mkdir -p ${dir}/games ${dir}/timerhouse`);
 for (const page of pages) {
   execFileSync('scp', ['-i', key, '-o', 'BatchMode=yes', join(root, page), `${host}:${dir}/${page}`], { stdio: 'inherit' });
 }

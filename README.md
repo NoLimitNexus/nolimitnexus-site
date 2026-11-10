@@ -18,3 +18,7 @@ Wayfarers is ONE entry, https://wayfarers.nolimitnexus.com/ and nothing under it
 Lakeside, Adventure Island, the Shooting Island, the Party RPG characters) never get their own card or link here or
 anywhere: his rule, said several times (wayfarer-merge FOCUS.md, 2026-10-21), and repeated 2026-10-22 when this page
 first listed Lakeside, Adventure Island and Party RPG separately.
+
+## Timer House pages (unlisted)
+`timerhouse/` is served at https://nolimitnexus.com/timerhouse/ (home, privacy.html, terms.html): the pages
+Google's sign-in setup for the Timer House uploader (C:/Projects/timer-channel) asks for. Added 2026-11-10.
